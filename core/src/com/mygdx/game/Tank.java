@@ -44,6 +44,7 @@ public class Tank {
             if (Gdx.input.isKeyPressed(Input.Keys.W)) {
                 x += speed * MathUtils.cosDeg(angle) * dt;
                 y += speed * MathUtils.sinDeg(angle) * dt;
+                //lesson_1
                 //добавлены условия на координаты x и y
                 if (x > 1280 || x < 0)
                     x = 0;
